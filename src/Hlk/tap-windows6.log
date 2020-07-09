@@ -1,0 +1,49 @@
+﻿  Building 'tap-windows6' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping Hlk\tap0901.inf
+  Stamping [Version] section with DriverVer=09/27/2019,9.24.2.601
+D:\aisec-tap-driver\tap-windows6\src\tap0901.inf(49-49): warning 1324: [Version] section should specify PnpLockdown=1.
+  adapter.c
+D:\aisec-tap-driver\tap-windows6\src\adapter.c(315,58): warning C4456: “configParameter”的声明隐藏了上一个本地声明
+D:\aisec-tap-driver\tap-windows6\src\adapter.c(243,39): message : 参见“configParameter”的声明
+D:\aisec-tap-driver\tap-windows6\src\adapter.c(466,21): warning C4189: “listEntry”: 局部变量已初始化但不引用
+D:\aisec-tap-driver\tap-windows6\src\adapter.c(1372,28): warning C4189: “adapter”: 局部变量已初始化但不引用
+D:\aisec-tap-driver\tap-windows6\src\adapter.c(1461,28): warning C4189: “adapter”: 局部变量已初始化但不引用
+D:\aisec-tap-driver\tap-windows6\src\adapter.c(1577,17): warning C4189: “listEntry”: 局部变量已初始化但不引用
+  device.c
+D:\aisec-tap-driver\tap-windows6\src\device.c(484,46): warning C4245: “=”: 从“int”转换到“IPADDR”，有符号/无符号不匹配
+D:\aisec-tap-driver\tap-windows6\src\device.c(599,56): warning C4244: “=”: 从“int”转换到“char”，可能丢失数据
+  dhcp.c
+D:\aisec-tap-driver\tap-windows6\src\dhcp.c(336,25): warning C4245: “=”: 从“int”转换到“ULONG”，有符号/无符号不匹配
+  error.c
+  macinfo.c
+  mem.c
+  oidrequest.c
+D:\aisec-tap-driver\tap-windows6\src\oidrequest.c(1046,26): warning C4189: “adapter”: 局部变量已初始化但不引用
+D:\aisec-tap-driver\tap-windows6\src\oidrequest.c(1129,28): warning C4189: “adapter”: 局部变量已初始化但不引用
+  rxpath.c
+  tapdrvr.c
+  txpath.c
+D:\aisec-tap-driver\tap-windows6\src\txpath.c(614,23): warning C4245: “函数”: 从“int”转换到“const IPADDR”，有符号/无符号不匹配
+D:\aisec-tap-driver\tap-windows6\src\txpath.c(477,21): warning C4101: “status”: 未引用的局部变量
+D:\aisec-tap-driver\tap-windows6\src\txpath.c(1182,28): warning C4189: “adapter”: 局部变量已初始化但不引用
+  正在生成代码...
+D:\aisec-tap-driver\tap-windows6\src\macinfo.c(56): warning C4706: 条件表达式内的赋值
+D:\aisec-tap-driver\tap-windows6\src\macinfo.c(130): warning C4706: 条件表达式内的赋值
+  tap-windows6.vcxproj -> D:\aisec-tap-driver\tap-windows6\src\Hlk\tap0901.sys
+  Done Adding Additional Store
+  Successfully signed: D:\aisec-tap-driver\tap-windows6\src\Hlk\tap0901.sys
+  
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  D:\aisec-tap-driver\tap-windows6\src\Hlk\tap-windows6\tap0901.cat
+  Done Adding Additional Store
+  Successfully signed: D:\aisec-tap-driver\tap-windows6\src\Hlk\tap-windows6\tap0901.cat
+  

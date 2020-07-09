@@ -1,0 +1,17 @@
+﻿  Building 'tap-windows6' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+D:\aisec-tap-driver\tap-windows6\src\tap0901.inf(49-49): warning 1324: [Version] section should specify PnpLockdown=1.
+  tap-windows6.vcxproj -> D:\aisec-tap-driver\tap-windows6\src\x64\Debug\tap0901.sys
+  ..........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  D:\aisec-tap-driver\tap-windows6\src\x64\Debug\tap-windows6\tap0901.cat
+  Done Adding Additional Store
+  Successfully signed: D:\aisec-tap-driver\tap-windows6\src\x64\Debug\tap-windows6\tap0901.cat
+  

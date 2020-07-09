@@ -1,0 +1,38 @@
+﻿  Building 'tap-windows6' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Release\tapcss.inf
+  Stamping [Version] section with DriverVer=09/27/2019,9.24.2.601
+D:\aisec-tap-driver\tap-windows6\src\tapcss.inf(49-49): warning 1324: [Version] section should specify PnpLockdown=1.
+  adapter.c
+D:\aisec-tap-driver\tap-windows6\src\adapter.c(315,58): warning C4456: “configParameter”的声明隐藏了上一个本地声明
+D:\aisec-tap-driver\tap-windows6\src\adapter.c(243,39): message : 参见“configParameter”的声明
+D:\aisec-tap-driver\tap-windows6\src\adapter.c(466,21): warning C4189: “listEntry”: 局部变量已初始化但不引用
+D:\aisec-tap-driver\tap-windows6\src\adapter.c(1372,28): warning C4189: “adapter”: 局部变量已初始化但不引用
+D:\aisec-tap-driver\tap-windows6\src\adapter.c(1461,28): warning C4189: “adapter”: 局部变量已初始化但不引用
+D:\aisec-tap-driver\tap-windows6\src\adapter.c(1577,17): warning C4189: “listEntry”: 局部变量已初始化但不引用
+  device.c
+D:\aisec-tap-driver\tap-windows6\src\device.c(484,46): warning C4245: “=”: 从“int”转换到“IPADDR”，有符号/无符号不匹配
+D:\aisec-tap-driver\tap-windows6\src\device.c(599,56): warning C4244: “=”: 从“int”转换到“char”，可能丢失数据
+  dhcp.c
+D:\aisec-tap-driver\tap-windows6\src\dhcp.c(336,25): warning C4245: “=”: 从“int”转换到“ULONG”，有符号/无符号不匹配
+  error.c
+  macinfo.c
+  mem.c
+  oidrequest.c
+D:\aisec-tap-driver\tap-windows6\src\oidrequest.c(1046,26): warning C4189: “adapter”: 局部变量已初始化但不引用
+D:\aisec-tap-driver\tap-windows6\src\oidrequest.c(1129,28): warning C4189: “adapter”: 局部变量已初始化但不引用
+  rxpath.c
+  tapdrvr.c
+  txpath.c
+D:\aisec-tap-driver\tap-windows6\src\txpath.c(614,23): warning C4245: “函数”: 从“int”转换到“const IPADDR”，有符号/无符号不匹配
+D:\aisec-tap-driver\tap-windows6\src\txpath.c(477,21): warning C4101: “status”: 未引用的局部变量
+D:\aisec-tap-driver\tap-windows6\src\txpath.c(1182,28): warning C4189: “adapter”: 局部变量已初始化但不引用
+  正在编译...
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\km\ntddk.h(19206,1): fatal error C1001: 内部编译器错误。
+  (编译器文件“msc1.cpp”，第 1532 行)
+   要解决此问题，请尝试简化或更改上面所列位置附近的程序。
+  如果可以，请在此处提供重现步骤: https://developercommunity.visualstudio.com
+  请选择 Visual C++
+  “帮助”菜单上的“技术支持”命令，或打开技术支持帮助文件来获得详细信息。
+  “C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.25.28610\bin\HostX86\x64\CL.exe”中的内部编译器错误
+    请选择 Visual C++
+  “帮助”菜单上的“技术支持”命令，或打开技术支持帮助文件来获得详细信息

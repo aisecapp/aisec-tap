@@ -1,0 +1,2 @@
+D:\aisec-tap-driver\tap-windows6\src\x64\Debug\tap0901.sys
+D:\aisec-tap-driver\tap-windows6\src\x64\Debug\tap0901.pdb
